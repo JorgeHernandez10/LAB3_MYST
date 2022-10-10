@@ -8,11 +8,7 @@
 # -- repository: YOUR REPOSITORY URL                                                                     -- #
 # -- --------------------------------------------------------------------------------------------------- -- #
 """
-
-dict_test = {'key_a': 'a', 'key_b': 'b'}
-
-# Prueba
-print("a ver si se hace el cambio de los files")
-
-# branch sebas
-# aquí va a trabajar sebas 
+import pandas as pd
+data1 = pd.read_csv("files/Data1.csv")
+data2 = pd.read_csv("files/Data2.csv")
+data3 = pd.read_csv("files/Data3.csv")
