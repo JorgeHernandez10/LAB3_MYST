@@ -8,3 +8,7 @@
 # -- repository: YOUR REPOSITORY URL                                                                     -- #
 # -- --------------------------------------------------------------------------------------------------- -- #
 """
+def f_leer_archivo(param_archivo):
+    direccion = str(files/) + str(param_archivo)
+    data = pd.read_csv(direccion)
+    return data
